@@ -1,0 +1,33 @@
+.janela_calculadora{
+    width: 400px;
+    height: 450px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+.area_visor{
+    width: 394px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: white;
+    resize: none;
+    border-radius: 5px;
+    
+}
+
+
+.botoes_numericos, .botoes_caracteres{
+    width: 300px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    gap: 10px 20px;
+    align-items: stretch;
+}
+
+
+
+
